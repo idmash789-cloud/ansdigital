@@ -22,7 +22,8 @@ Semua aplikasi gratis.
 Judul "Walpaper" ditulis persis seperti di Play Store. Jangan mengubahnya
 menjadi "Wallpaper" tanpa keputusan dari pemilik akun.
 
-Website developer yang tercantum di Play Store: https://affiliateid.my.id
+Domain situs ini: https://ansdigital.techo.web.id (custom domain, diatur di dashboard Cloudflare Pages).
+Kontak: sopport.offisial@gmail.com
 
 ## Menjalankan secara lokal
 
@@ -45,6 +46,9 @@ Lalu buka http://localhost:8000
    Output directory: `/` (root repo).
 3. Deploy. Setiap push ke `main` akan ter-deploy otomatis.
 
+   Custom domain `ansdigital.techo.web.id` dipasang di dashboard Cloudflare
+   Pages (Custom domains) oleh pemilik akun, mengarah ke proyek ini.
+
 ### GitHub Pages
 
 1. Di repo GitHub, buka **Settings → Pages**.
@@ -55,7 +59,8 @@ Lalu buka http://localhost:8000
 
 1. Edit kartu aplikasi di `index.html` (nama, deskripsi, link Google Play).
    Tambahkan kartu baru dengan pola yang sama bila ada aplikasi baru.
-2. Jangan menambahkan jumlah unduhan, rating, alamat, email, atau nomor
-   kontak kecuali sudah terverifikasi dari sumber resmi.
+2. Jangan menambahkan jumlah unduhan, rating, alamat, atau nomor kontak
+   kecuali sudah terverifikasi dari sumber resmi atau diberikan langsung
+   oleh pemilik akun. Email kontak saat ini: sopport.offisial@gmail.com.
 3. Commit dan push ke branch `main` — deploy berjalan otomatis
    (Cloudflare Pages) atau setelah GitHub Pages membaca commit terbaru.
